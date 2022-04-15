@@ -1,5 +1,5 @@
 <div>
-  <% @bicis.each do |magrelas_name| %>
-    <%= magrelas_name.name %>
+  <% @bicis.each do |bici|%>
+    <%= link_to bici.name, bici_path(bici) %></li>
   <% end %>
 </div>
