@@ -1,0 +1,2 @@
+class Bici < ApplicationRecord
+end
